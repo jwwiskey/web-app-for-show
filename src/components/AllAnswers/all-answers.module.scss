@@ -1,0 +1,44 @@
+/*
+    TODO: DON'T USE TAGS REFERENCES
+ */
+
+.all-answers {
+    padding: 30px 20px;
+}
+
+.all-answers__search {
+    border: 1px solid #2d2d2d;
+    border-radius: 6px;
+    padding: 10px 0;
+    display: flex;
+    input {
+        flex: 1;
+        border: 0;
+        font-size: 16px;
+        font-style: italic;
+        color: #333;
+        outline: none;
+        padding: 0 10px;
+    }
+}
+
+.all-answers__decision {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    img {
+        width: 50px;
+        margin-right: 14px;
+    }
+    &-item {
+        border: 1px solid #2d2d2d;
+        border-radius: 4px;
+        padding: 10px 26px;
+        font-size: 14px;
+        margin-right: 14px;
+        &_active {
+            background: #ff6869;
+        }
+    }
+}

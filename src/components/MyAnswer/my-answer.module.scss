@@ -1,0 +1,33 @@
+/*
+    TODO: DON'T USE TAGS REFERENCES
+ */
+
+.my-answer {
+    padding: 30px 20px;
+    h2 {
+        margin-bottom: 10px;
+    }
+    select {
+        width: 300px;
+        margin-top: 10px;
+        padding: 4px 8px;
+    }
+}
+
+.my-answer__name-box {
+    border: 1px solid #2d2d2d;
+    padding: 4px 8px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.my-answer__with-me-box {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    input {
+        width: 100px;
+        text-align: center;
+    }
+}
