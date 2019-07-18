@@ -14,6 +14,7 @@ const MyAnswer = ({name, decision, followers, onChange = () => {} }: Props) => {
 
   useEffect(() => {
     if (decisionValue === '0') setFollowerValue('0');
+    if (+followerValue < 0) setFollowerValue('0');
 
     onChange({
       decision: decisionValue,
